@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(#62cff4 80%, #2c67f2 100%);
+  font-family: arial;
+}
+.nav {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav img {
+  width: 20px;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+  background: white;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0px 5px #2697bd;
+}
+.top-section {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(248, 245, 245);
+}
+.nav-top {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+.status {
+  width: 100%;
+  height: 60%;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.status::-webkit-scrollbar {
+  display: none;
+}
+.status i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  display: inline-block;
+  background-color: #024ec9;
+  border: 3.5px solid rgb(35, 174, 220);
+  flex-shrink: 0;
+}
+.h-chats {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.main-chat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 75%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.main-chat::-webkit-scrollbar {
+  display: none;
+}
+.chat {
+  width: 100%;
+  height: 18%;
+  display: flex;
+  margin: 5px 0;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid;
+}
+.pp {
+  width: 40px;
+  height: 40px;
+  background-color: #62cff4;
+  border-radius: 50%;
+}
+.pesan {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.pesan h3 {
+  font-size: 14px;
+}
+.pesan h6 {
+  font-size: 12px;
+}
+.notif {
+  width: 20px;
+  height: 20px;
+  background-color: #2c67f2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: small;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
