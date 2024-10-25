@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Splitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="controls">
+        X: <input type="number" id="xInput" value="" min="1" max="10">
+        Y: <input type="number" id="yInput" value="" min="1" max="10">
+        <button id="splitBtn">Split Image</button>
+    </div>
+
+    <div id="original-image-container">
+        <img id="original-image" src="ss.png" alt="Original Image">
+    </div>
+
+    <div id="image-container" style="display: none;"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

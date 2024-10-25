@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+#original-image-container {
+  border: 2px solid yellow;
+  margin-bottom: 20px;
+}
+
+#original-image {
+  width: 400px;
+  height: 300px;
+}
+
+#image-container {
+  display: grid;
+  gap: 1px;
+  border: 2px solid yellow;
+}
+
+.piece {
+  background-size: 400px 300px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
