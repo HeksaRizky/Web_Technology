@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+#start {
+  background-color: #007bff;
+  color: white;
+}
+
+#stop {
+  background-color: #dc3545;
+  color: white;
+}
+
+#reset {
+  background-color: #ffc107;
+  color: black;
+}
+
+#timer {
+  font-size: 100px;
+  margin-top: 20px;
+  font-weight: bold;
+}
